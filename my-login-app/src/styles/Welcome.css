@@ -1,0 +1,194 @@
+/* src/styles/Welcome.css */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url('../assets/background.svg') no-repeat center center/cover;
+}
+
+.welcome-box {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.welcome-box h2 {
+  color: #0f447c;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.user-info h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #0f447c;
+}
+
+.user-info pre {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0f447c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.profile-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0f447c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.profile-button:hover {
+  background-color: #0056b3;
+}
+
+.welcome-address {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #f8f3f3;
+}
+
+.welcome-address .separator::before {
+  content: "•";
+  margin: 0 8px;
+  color: #f3efef;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+/* New styles for token-info */
+.token-info {
+  margin-top: 20px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.token-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0f447c;
+}
+
+.token-info p {
+  font-size: 14px;
+  word-break: break-all; /* Ensures long tokens wrap */
+  margin: 5px 0;
+}
+
+.token-info strong {
+  color: #0f447c; /* Matches login button and other headings */
+}
+
+/* Styles for Profile component */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 560px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.profile-form label {
+  margin-bottom: 10px;
+  color: #0f447c;
+}
+
+.profile-form input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 97%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-form button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #0f447c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.profile-form button:hover {
+  background-color: #0056b3;
+}
+
+.profile-info {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 20px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.profile-info p {
+  margin: 10px 0;
+  color: #0f447c;
+}
+
+.profile-info button {
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #0f447c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.profile-info button:hover {
+  background-color: #0056b3;
+}

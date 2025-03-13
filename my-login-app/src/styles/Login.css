@@ -1,0 +1,143 @@
+/* src/styles/Login.css */
+.login-page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .left-half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .right-half {
+    flex: 1;
+    background: url('../assets/sample-background.jpg') no-repeat center center/cover; /* You can replace this with your own image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-title {
+    font-size: 32px; /* Larger font size to match the image */
+    font-weight: 600; /* Slightly bold */
+    color: #333;
+    margin-bottom: 8px; /* Reduced spacing between title and subtitle */
+  }
+  
+  .login-subtitle {
+    font-size: 16px; /* Slightly larger than before to match the image */
+    color: #666;
+    margin-bottom: 30px; /* Increased spacing to match the image */
+  }
+  
+  .login-input-label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 500; /* Slightly bold to match the image */
+  }
+  
+  .login-input {
+    display: block;
+    width: 100%;
+    max-width: 400px; /* Match the width in the image */
+    padding: 12px; /* Slightly taller input fields */
+    margin: 8px 0 20px 0; /* Adjusted spacing between input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #fafafa; /* Light background to match the image */
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px; /* Increased spacing to match the image */
+  }
+  
+  .forgot-password a {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    width: 100%;
+    max-width: 400px; /* Match the width of input fields */
+    padding: 12px; /* Slightly taller button */
+    background-color: #ff6f61; /* Orange color from the image */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px; /* Spacing between buttons */
+  }
+  
+  .login-button:hover {
+    background-color: #e65b50; /* Slightly darker orange on hover */
+  }
+  
+  .google-login-button {
+    width: 100%;
+    max-width: 400px; /* Match the width of input fields */
+    padding: 12px; /* Slightly taller button */
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Spacing before the signup link */
+  }
+  
+  .google-login-button img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .google-login-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .signup-link {
+    text-align: center;
+  }
+  
+  .signup-link p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .signup-link a {
+    color: #ff6f61; /* Orange color for the link to match the theme */
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px; /* Adjusted spacing */
+  }

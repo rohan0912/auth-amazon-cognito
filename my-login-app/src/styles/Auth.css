@@ -1,0 +1,107 @@
+/* Ensure the background covers the entire viewport */
+.login-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; /* Ensure it spans the full width */
+    background: url('../assets/background.png') no-repeat center center/cover;
+  }
+  
+  .login-box {
+    background: rgba(255, 255, 255, 0.6); /* Add transparency */
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-address {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #050101; /* Subtle color for the text */
+  }
+
+  .login-address .separator::before {
+    content: "•"; /* Unicode for a bullet dot */
+    margin: 0 8px; /* Add space around the bullet */
+    color: #050101; /* Bullet color */
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  
+  .login-logo {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .login-input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f447c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    margin-top: 10px;
+  }
+  
+  .signup-link a {
+    color: #2e5580;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .additional-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .additional-links p {
+    margin: 5px 0;
+  }
+  
+  .additional-links a {
+    color: #0f447c;
+    text-decoration: none;
+  }
+  
+  .additional-links a:hover {
+    text-decoration: underline;
+    color: #cee0f6;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+  }
