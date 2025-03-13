@@ -64,7 +64,7 @@ npm start
 ### 3. Setup Frontend (React)
 #### Install Dependencies
 ```sh
-cd frontend
+cd my-login-app
 npm install
 ```
 
